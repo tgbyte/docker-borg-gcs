@@ -1,0 +1,2 @@
+#!/bin/sh
+gsutil rsync -d -r /var/backups/borg $GCS_BACKUP_URI
